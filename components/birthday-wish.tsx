@@ -105,7 +105,7 @@ export default function BirthdayWish() {
               Happy 20th Birthday!
             </CardTitle>
             <CardDescription className="text-2xl font-semibold text-gray-400">
-              Dearest Friend!
+              Dear Friend!
             </CardDescription>
             <p className="text-lg text-gray-500">13th July</p>
           </CardHeader>
