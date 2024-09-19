@@ -40,25 +40,25 @@ export default function BirthdayWish() {
   const [candlesLit, setCandlesLit] = useState<number>(0);
   const [balloonsPoppedCount, setBalloonsPoppedCount] = useState<number>(0);
   const [showConfetti, setShowConfetti] = useState<boolean>(false);
-  const [windowSize, setWindowSize] = useState<ConfettiType>({
-    width: 0,
-    height: 0,
-  });
+  // const [windowSize, setWindowSize] = useState<ConfettiType>({
+  //   width: 0,
+  //   height: 0,
+  // });
   const [celebrating, setCelebrating] = useState<boolean>(false);
 
   // Define constants
-  const totalCandles: number = 5;
-  const totalBalloons: number = 5;
+  const totalCandles: number = 6;
+  const totalBalloons: number = 6;
 
   // Apply side effects
-  useEffect(() => {
-    const handleSize = () => {
-      setWindowSize({ width: window.innerWidth, height: window.innerHeight });
-    };
-    handleSize();
-    window.addEventListener("resize", handleSize);
-    return () => window.removeEventListener("resize", handleSize);
-  }, []);
+  // useEffect(() => {
+  //   const handleSize = () => {
+  //     setWindowSize({ width: window.innerWidth, height: window.innerHeight });
+  //   };
+  //   handleSize();
+  //   window.addEventListener("resize", handleSize);
+  //   return () => window.removeEventListener("resize", handleSize);
+  // }, []);
 
   useEffect(() => {
     if (candlesLit === totalCandles && balloonsPoppedCount === totalBalloons) {
