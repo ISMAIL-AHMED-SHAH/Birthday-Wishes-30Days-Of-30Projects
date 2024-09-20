@@ -15,10 +15,10 @@ import { FaBirthdayCake, FaGift } from "react-icons/fa";
 import { GiBalloons } from "react-icons/gi";
 
 // Confetti Interface
-interface ConfettiType {
-  width: number;
-  height: number;
-}
+// interface ConfettiType {
+//   width: number;
+//   height: number;
+// }
 
 // Dynamic import
 const DynamicConfetti = dynamic(() => import("react-confetti"), { ssr: false });
