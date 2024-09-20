@@ -101,7 +101,7 @@ export default function BirthdayWish() {
       >
         <Card className="mx-auto transition-all overflow-hidden duration-300 ease-in-out hover:shadow-2xl hover:shadow-blue-900 border-2 border-gray-700 bg-gray-800">
           <CardHeader className="text-center">
-            <CardTitle className="text-4xl text-white font-bold">
+            <CardTitle className="text-4xl text-blue-600 font-bold">
               Happy 20th Birthday!
             </CardTitle>
             <CardDescription className="text-2xl font-semibold text-gray-400">
@@ -149,7 +149,7 @@ export default function BirthdayWish() {
             </div>
             {/* Balloon Popping Section */}
             <div>
-              <h3 className="text-lg font-semibold text-white mb-2">
+              <h3 className="text-lg font-semibold text-pink-300 mb-2">
                 Pop the Balloons:
               </h3>
               <div className="flex justify-center space-x-2">
